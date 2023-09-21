@@ -10,9 +10,14 @@ public class App
     {
         System.out.println(hello());
     }
-
+    
+    /** Méthode retournant "Hello World!" si exécutée sans paramètre
+     * 
+     * @return "Hello World!"
+     */
     public static String hello() {
         return  "Hello World!" ;
+        
     }
 
     public static String hello(String param) {
